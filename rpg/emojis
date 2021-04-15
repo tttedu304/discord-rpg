@@ -1,0 +1,19 @@
+http://unicode.org/Public/emoji/1.0/emoji-data.txt
+
+2639 ;	text ;	L2 ;	secondary ;	w	# V1.1 (☹) WHITE FROWNING FACE
+263A ;	text ;	L1 ;	secondary ;	j w	# V1.1 (☺) WHITE SMILING FACE
+27A1 ;	text ;	L1 ;	none ;	z a j	# V1.1 (➡) BLACK RIGHTWARDS ARROW
+2B05 ;	text ;	L1 ;	none ;	a j	# V4.0 (⬅) LEFTWARDS BLACK ARROW
+2B06 ;	text ;	L1 ;	none ;	a j	# V4.0 (⬆) UPWARDS BLACK ARROW
+2B07 ;	text ;	L1 ;	none ;	a j	# V4.0 (⬇) DOWNWARDS BLACK ARROW
+2B1B ;	emoji ;	L1 ;	none ;	a j w	# V5.1 (⬛) BLACK LARGE SQUARE
+2B1C ;	emoji ;	L1 ;	none ;	j w	# V5.1 (⬜) WHITE LARGE SQUARE
+2B50 ;	emoji ;	L1 ;	none ;	j	# V5.1 (⭐) WHITE MEDIUM STAR
+26AA ;	emoji ;	L1 ;	none ;	j	# V4.1 (⚪) MEDIUM WHITE CIRCLE
+26AB ;	emoji ;	L1 ;	none ;	j w	# V4.1 (⚫) MEDIUM BLACK CIRCLE
+26FA ;	emoji ;	L1 ;	none ;	a j	# V5.2 (⛺) TENT
+26EA ;	emoji ;	L1 ;	none ;	a j	# V5.2 (⛪) CHURCH
+
+ - Árbol ------------------------------------------------------
+ |  2618 ; text ;	L2 ;	none ;	x	# V4.1 (☘) SHAMROCK  |    
+ --------------------------------------------------------------
