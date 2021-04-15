@@ -6,7 +6,6 @@ async function display(message, args, callback) {
   let display;
   await message.channel.send("Loading...").then((msg) => {
     display = msg;
-    return display;
   });
   await game_reactions(display);
   return callback(display);
@@ -15,7 +14,7 @@ function simple_embed(content, display) {
   display.edit(new Discord.MessageEmbed().setDescription(content));
 }
 async function game_reactions(display) {
-  await display.reactions.removeAll();
+  //await display.reactions.removeAll();
   await simple_embed("⬜⬛⬛⬛", display);
   await display.react("◀");
   await display.react("▶");
@@ -30,7 +29,7 @@ async function game_reactions(display) {
 }
 
 async function confirm_exit_screen(display) {
-  await display.reactions.removeAll();
+  //await display.reactions.removeAll();
   await simple_embed("Do you really want to exit? Press 🔴 to cancel", display);
   await display.react("🔴");
   await display.react("🔵");
@@ -103,6 +102,7 @@ module.exports.rpg = (client, message, args) => {
     const filterTrue = () => true;
     const collector = display.createReactionCollector(userFilter);
     collector.on("collect", (reactionObject) => {
+      console.log(reactionObject);
       reactionObject.remove(message.author);
       let reaction = reactionObject.emoji.name;
 
